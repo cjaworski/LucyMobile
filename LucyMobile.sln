@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.Core", "src\LucyMobile.Core\LucyMobile.Core.csproj", "{95F46E3F-AED4-4C2A-B450-B4CB13BBE7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucyMobile.Core", "src\LucyMobile.Core\LucyMobile.Core.csproj", "{95F46E3F-AED4-4C2A-B450-B4CB13BBE7C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.Droid", "src\LucyMobile.Droid\LucyMobile.Droid.csproj", "{3FBDF06F-D87D-41D6-AAC2-4F29AAA62925}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.iOS", "src\LucyMobile.iOS\LucyMobile.iOS.csproj", "{68E827A1-6B66-434D-B8B4-1E3E1D0C7A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.Core.Test", "test\LucyMobile.Core.Test\LucyMobile.Core.Test.csproj", "{053314CD-142C-40D4-BB63-8B087418488A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LucyMobile.Core.Test", "test\LucyMobile.Core.Test\LucyMobile.Core.Test.csproj", "{053314CD-142C-40D4-BB63-8B087418488A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.Droid.Test", "test\LucyMobile.Droid.Test\LucyMobile.Droid.Test.csproj", "{47203CB1-890A-43A6-A281-178D965F2756}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LucyMobile.Droid.Shared", "src\LucyMobile.Droid.Shared\LucyMobile.Droid.Shared.shproj", "{B96732EE-E114-44B5-B66A-044269FC6FBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LucyMobile.Droid.UI.Test", "test\LucyMobile.Droid.UI.Test\LucyMobile.Droid.UI.Test.csproj", "{472279B6-87CC-4106-82E9-6A67B0EE71A5}"
 EndProject
@@ -29,11 +27,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!Solution Items", "!Solutio
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\LucyMobile.Droid.Shared\LucyMobile.Droid.Shared.projitems*{3FBDF06F-D87D-41D6-AAC2-4F29AAA62925}*SharedItemsImports = 4
-		src\LucyMobile.Droid.Shared\LucyMobile.Droid.Shared.projitems*{47203CB1-890A-43A6-A281-178D965F2756}*SharedItemsImports = 4
-		src\LucyMobile.Droid.Shared\LucyMobile.Droid.Shared.projitems*{B96732EE-E114-44B5-B66A-044269FC6FBD}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
